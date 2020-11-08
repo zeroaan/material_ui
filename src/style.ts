@@ -12,4 +12,9 @@ export const useStyles = makeStyles({
     height: 50,
     borderRadius: 30,
   },
+  checkBox: {
+    // Checkbox 는 width, height 먹지 않음
+    width: 50,
+    height: 50,
+  },
 });
