@@ -4,9 +4,9 @@ import Button from "@material-ui/core/Button";
 import SaveIcon from "@material-ui/icons/Save";
 import DeleteIcon from "@material-ui/icons/Delete";
 
-import { useStyles } from "./style";
+import { useStyles } from "../style";
 
-function Mbutton() {
+function ButtonMui() {
   const classes = useStyles();
 
   return (
@@ -79,4 +79,4 @@ function Mbutton() {
   );
 }
 
-export default Mbutton;
+export default ButtonMui;

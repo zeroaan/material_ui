@@ -1,10 +1,10 @@
 import * as React from "react";
-import Button from "./Mbutton";
+import ButtonMui from "./components/ButtonMui";
 
 function App() {
   return (
     <>
-      <Button />
+      <ButtonMui />
     </>
   );
 }
