@@ -17,4 +17,8 @@ export const useStyles = makeStyles({
     width: 50,
     height: 50,
   },
+  textfield: {
+    margin: 20,
+    display: "block",
+  },
 });
