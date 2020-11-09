@@ -34,7 +34,7 @@ function TypographyMui() {
         {/* maxWidth: xs, sm, md, lg, xl */}
         <div className={classes.div}>
           <AppBar color="secondary">
-            <Toolbar>
+            <Toolbar className={classes.toolbar}>
               <IconButton color="inherit">
                 <MenuIcon />
               </IconButton>
