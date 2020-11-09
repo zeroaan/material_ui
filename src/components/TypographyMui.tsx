@@ -1,8 +1,16 @@
 import * as React from "react";
+
+import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
+
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
+
+import AppBar from "@material-ui/core/AppBar";
+import Toolbar from "@material-ui/core/Toolbar";
+import IconButton from "@material-ui/core/IconButton";
+import MenuIcon from "@material-ui/icons/Menu";
 
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 
@@ -22,9 +30,18 @@ function TypographyMui() {
 
   return (
     <>
-      <Container maxWidth="lg">
+      <Container maxWidth="xs">
         {/* maxWidth: xs, sm, md, lg, xl */}
         <div className={classes.div}>
+          <AppBar color="secondary">
+            <Toolbar className={classes.toolbar}>
+              <IconButton>
+                <MenuIcon />
+              </IconButton>
+              <Typography variant="h6">MUI Title</Typography>
+              <Button>Login</Button>
+            </Toolbar>
+          </AppBar>
           <ThemeProvider theme={theme}>
             <Typography variant="h2">Welcome to MUI</Typography>
             <Typography variant="h2" component="div">
