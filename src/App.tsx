@@ -1,12 +1,13 @@
 import * as React from "react";
-import TextFieldMui from "./components/TextFieldMui";
+import TypographyMui from "./components/TypographyMui";
 
 function App() {
   return (
     <>
       {/* <ButtonMui /> */}
       {/* <CheckboxMui /> */}
-      <TextFieldMui />
+      {/* <TextFieldMui /> */}
+      <TypographyMui />
     </>
   );
 }
