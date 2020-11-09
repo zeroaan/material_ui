@@ -34,12 +34,12 @@ function TypographyMui() {
         {/* maxWidth: xs, sm, md, lg, xl */}
         <div className={classes.div}>
           <AppBar color="secondary">
-            <Toolbar className={classes.toolbar}>
-              <IconButton>
+            <Toolbar>
+              <IconButton color="inherit">
                 <MenuIcon />
               </IconButton>
               <Typography variant="h6">MUI Title</Typography>
-              <Button>Login</Button>
+              <Button color="inherit">Login</Button>
             </Toolbar>
           </AppBar>
           <ThemeProvider theme={theme}>
