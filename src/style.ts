@@ -33,6 +33,8 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   paper: {
+    maxWidth: 400,
+    margin: `${theme.spacing(1)}px`,
     padding: theme.spacing(2),
   },
 }));
