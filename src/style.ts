@@ -1,6 +1,6 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-export const useStyles = makeStyles({
+export const useStyles = makeStyles((theme) => ({
   button: {
     width: 150,
     margin: "auto",
@@ -31,4 +31,8 @@ export const useStyles = makeStyles({
   toolbar: {
     justifyContent: "space-between",
   },
-});
+
+  paper: {
+    padding: theme.spacing(2),
+  },
+}));

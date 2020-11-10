@@ -1,5 +1,5 @@
 import * as React from "react";
-import TypographyMui from "./components/TypographyMui";
+import Paper_CardMui from "./components/Paper_CardMui";
 
 function App() {
   return (
@@ -7,7 +7,8 @@ function App() {
       {/* <ButtonMui /> */}
       {/* <CheckboxMui /> */}
       {/* <TextFieldMui /> */}
-      <TypographyMui />
+      {/* <TypographyMui /> */}
+      <Paper_CardMui />
     </>
   );
 }
