@@ -14,7 +14,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 
-import { useStyles } from "../style";
+import { useStyles } from "./style";
 
 const theme = createMuiTheme({
   typography: {
@@ -47,15 +47,9 @@ function TypographyMui() {
             <Typography variant="h2" component="div">
               Welcome to MUI
             </Typography>
-            <Typography variant="subtitle1">
-              Learn how to use Material Ui
-            </Typography>
-            <Typography variant="subtitle2">
-              Learn how to use Material Ui
-            </Typography>
-            <Typography variant="body1">
-              Learn how to use Material Ui
-            </Typography>
+            <Typography variant="subtitle1">Learn how to use Material Ui</Typography>
+            <Typography variant="subtitle2">Learn how to use Material Ui</Typography>
+            <Typography variant="body1">Learn how to use Material Ui</Typography>
           </ThemeProvider>
 
           <Grid container spacing={2} justify="center">

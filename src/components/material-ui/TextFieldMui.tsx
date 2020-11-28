@@ -4,7 +4,7 @@ import TextField from "@material-ui/core/TextField";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import { orange, green } from "@material-ui/core/colors";
 
-import { useStyles } from "../style";
+import { useStyles } from "./style";
 
 const theme = createMuiTheme({
   palette: {
@@ -22,28 +22,10 @@ function TextFieldMui() {
     <>
       <ThemeProvider theme={theme}>
         <form>
-          <TextField
-            className={classes.textfield}
-            variant="filled"
-            color="primary"
-          />
-          <TextField
-            className={classes.textfield}
-            variant="outlined"
-            color="secondary"
-          />
-          <TextField
-            className={classes.textfield}
-            variant="outlined"
-            color="primary"
-            type="date"
-          />
-          <TextField
-            className={classes.textfield}
-            variant="filled"
-            color="secondary"
-            type="time"
-          />
+          <TextField className={classes.textfield} variant="filled" color="primary" />
+          <TextField className={classes.textfield} variant="outlined" color="secondary" />
+          <TextField className={classes.textfield} variant="outlined" color="primary" type="date" />
+          <TextField className={classes.textfield} variant="filled" color="secondary" type="time" />
           <TextField
             className={classes.textfield}
             variant="outlined"

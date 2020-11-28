@@ -5,7 +5,7 @@ import FormGroup from "@material-ui/core/FormGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import SaveIcon from "@material-ui/icons/Save";
 
-import { useStyles } from "../style";
+import { useStyles } from "./style";
 
 function Checkboxs() {
   const [state, setState] = React.useState({
@@ -21,13 +21,7 @@ function Checkboxs() {
   return (
     <FormGroup row>
       <FormControlLabel
-        control={
-          <Checkbox
-            checked={state.checkedA}
-            onChange={handleChange}
-            name="checkedA"
-          />
-        }
+        control={<Checkbox checked={state.checkedA} onChange={handleChange} name="checkedA" />}
         label="Secondary"
       />
       <FormControlLabel

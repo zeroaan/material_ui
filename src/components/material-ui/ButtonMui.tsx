@@ -4,7 +4,7 @@ import Button from "@material-ui/core/Button";
 import SaveIcon from "@material-ui/icons/Save";
 import DeleteIcon from "@material-ui/icons/Delete";
 
-import { useStyles } from "../style";
+import { useStyles } from "./style";
 
 function ButtonMui() {
   const classes = useStyles();
@@ -38,40 +38,18 @@ function ButtonMui() {
       >
         Outlined 1
       </Button>
-      <Button
-        className={classes.button}
-        size="medium"
-        variant="outlined"
-        color="secondary"
-      >
+      <Button className={classes.button} size="medium" variant="outlined" color="secondary">
         Outlined 2
       </Button>
-      <Button
-        className={classes.button}
-        size="large"
-        variant="text"
-        color="primary"
-      >
+      <Button className={classes.button} size="large" variant="text" color="primary">
         Text 1
       </Button>
 
-      <ButtonGroup
-        style={{ borderRadius: 30 }}
-        size="small"
-        variant="contained"
-      >
-        <Button
-          className={classes.buttonGroup}
-          startIcon={<SaveIcon />}
-          color="primary"
-        >
+      <ButtonGroup style={{ borderRadius: 30 }} size="small" variant="contained">
+        <Button className={classes.buttonGroup} startIcon={<SaveIcon />} color="primary">
           Save
         </Button>
-        <Button
-          className={classes.buttonGroup}
-          startIcon={<DeleteIcon />}
-          color="secondary"
-        >
+        <Button className={classes.buttonGroup} startIcon={<DeleteIcon />} color="secondary">
           Delete
         </Button>
       </ButtonGroup>
