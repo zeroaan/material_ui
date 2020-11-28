@@ -1,18 +1,10 @@
 import * as React from "react";
-import ButtonMui from "./components/ButtonMui";
-import CheckboxMui from "./components/CheckboxMui";
-import TextFieldMui from "./components/TextFieldMui";
-import TypographyMui from "./components/TypographyMui";
-import PaperCardMui from "./components/PaperCardMui";
+import Login from "./components/Login";
 
 function App() {
   return (
     <>
-      <ButtonMui />
-      <CheckboxMui />
-      <TextFieldMui />
-      <TypographyMui />
-      <PaperCardMui />
+      <Login />
     </>
   );
 }
