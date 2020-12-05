@@ -1,10 +1,10 @@
 import * as React from "react";
-import Home from "./components/Home";
+import Test from "./components/emotion/Test";
 
 function App() {
   return (
     <>
-      <Home />
+      <Test />
     </>
   );
 }
